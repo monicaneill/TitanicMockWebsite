@@ -1,4 +1,4 @@
-<b>Titanic Mock Website</b>
+# Titanic Mock Website
 
 Having studied and achieved my MTA certification for the Introduction to Programming Using HTML and CSS (98-383) course, I Created a ‘Titanic’ Webpage using some newly 
 learned skills from this course. This includes:
@@ -12,4 +12,4 @@ and viewport so the page can load appropriately on different screens. Screen can
 
 #Increased familiarity with <div> tags, useful for positioning as well as seen in #Container attribute and column layout
 
-# Utilising 'normalise.css' (http://necolas.github.io/normalize.css/) to fix layout issues with coloumns and float attribute.
+#Utilising 'normalise.css' (http://necolas.github.io/normalize.css/) to fix layout issues with coloumns and float attribute.
