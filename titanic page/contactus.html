@@ -25,6 +25,7 @@ function myFunction() {
 <style>
 body
 {
+background-color: lightgrey;
 margin:0;
 padding:0;
 font-family: 'Open Sans', sans-serif;
@@ -32,6 +33,11 @@ font-family: 'Open Sans', sans-serif;
 h1, h2, h3, h4, h5, h6 {
 color:maroon;
 font-family: 'Bitter', serif;
+}
+label{
+  display: inline-block;
+  text-align: left;
+  width : 90px;    
 }
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -52,21 +58,21 @@ font-family: 'Bitter', serif;
 <div class="article-half-left"><h2>Make an Enquiry</h2>
 <form>
 <p>
+<label for="name">Name: </label>
 <input type="text" name="name" id="name" placeholder="Your full name" />
-<label for="name">Name</label>
 </p>
 <p>
+<label for="email">E-Mail: </label>
 <input type="text" name="email" id="email" placeholder="mail@example.com" />
-<label for="email">Email</label>
 </p>
 <p>
+<label for="web">Website:</label>
 <input type="text" name="web" id="web" placeholder="www.example.com" />
-<label for="web">Website</label>
 </p>
 
 <p>
-<input type="tel" name="tel" id="tel" placeholder="Your telephone number">
-<label for="tel">Telephone</label><br>
+<label for="tel">Telephone:</label>
+<input type="tel" name="tel" id="tel" placeholder="Your telephone number"><br>
 </p>
   <h3>Your Enquiry</h3>
 <p>
@@ -96,7 +102,7 @@ BT4 65W</p>
 </div> 
 <div class="article-third-right">
 <h4>Copyright</h4>
-<p>&copy; Titanic Belfast 2015</p>
+<p>&copy; Titanic Belfast 2015 (Monica Neill)</p>
 </div> 
 </div> 
 </div> 
