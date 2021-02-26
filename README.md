@@ -10,6 +10,6 @@ and viewport so the page can load appropriately on different screens. Screen can
 
 #The iframe tag for embedding youtube video and Google Maps into this website
 
-#Increased familiarity with <div> tags, useful for positioning as well as seen in #Container attribute and column layout
+#Increased familiarity with <div> tags, useful for positioning as well as seen in Container class and column layout
 
 #Utilising 'normalise.css' (http://necolas.github.io/normalize.css/) to fix layout issues with coloumns and float attribute.
