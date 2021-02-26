@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to Titanic Belfast</title>
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="The Titanic Belfast explains the story behind the Titanic which was built in Belfast">
+<meta name="keywords" content="Titanic, Ship, Belfast, Harland and Woolf, 1912, sinking">
+<meta name="author" content="Michael">
+<link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href="styles/styles.css" rel="stylesheet" type="text/css">
+<link href="styles/normalise.css" rel="stylesheet" type="text/css">
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+<style>
+body
+{
+margin:0;
+padding:0;
+font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+color:maroon;
+font-family: 'Bitter', serif;
+}
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div id="container">
+<div id ="banner"><img src="images/titanicBelfastBanner.jpg"></div>
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Home</a>
+  <a href="#news">News</a>
+  <a href="contactus.html">Contact</a>
+  <a href="#about">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div class="article-half-left"><h2>Make an Enquiry</h2>
+<form>
+<p>
+<input type="text" name="name" id="name" placeholder="Your full name" />
+<label for="name">Name</label>
+</p>
+<p>
+<input type="text" name="email" id="email" placeholder="mail@example.com" />
+<label for="email">Email</label>
+</p>
+<p>
+<input type="text" name="web" id="web" placeholder="www.example.com" />
+<label for="web">Website</label>
+</p>
+
+<p>
+<input type="tel" name="tel" id="tel" placeholder="Your telephone number">
+<label for="tel">Telephone</label><br>
+</p>
+  <h3>Your Enquiry</h3>
+<p>
+<textarea name="text" placeholder="Write something to us" /></textarea>
+</p>
+<p>
+<input type="submit" value="Send" />
+</p>
+ </form>
+
+</div>
+<div class="article-half-right"><h2>Find Us</h2>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2310.7737375817374!2d-5.907912800000001!3d54.607978499999994!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486109bb1be26a83%3A0x6bbdbab8dbbb5ff2!2sQueens+Rd%2C+Harland+and+Wolff%2C+Belfast+BT3!5e0!3m2!1sen!2suk!4v1429918155221" width="550" height="400" frameborder="0" style="border:0"></iframe>
+</div>
+
+
+
+<div class="footer clearfix">
+<div class="article-third-left">
+<h4>Contact Us</h4>
+<p>Tel:028 90 1111 1111</div> 
+<div class="article-third-left">
+<h4>Find Us</h4>
+<p>Queens Road</br>
+Belfast</br>
+BT4 65W</p>
+</div> 
+<div class="article-third-right">
+<h4>Copyright</h4>
+<p>&copy; Titanic Belfast 2015</p>
+</div> 
+</div> 
+</div> 
+</body>
+</html>
