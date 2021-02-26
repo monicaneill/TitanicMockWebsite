@@ -5,7 +5,7 @@ learned skills from this course. This includes:
 
 #Practicing using inline and internal styles (previously only ever knew external styling)
 
-#The META tag to provide metadata about the HTML document and Responsive elements (@media screen). Used here for Search Engine Optimization, page description, keywords, author of the document, language (charset) 
+#The META tag to provide metadata about the HTML document and Responsive elements (@media screen and learned more javascript). Used here for Search Engine Optimization, page description, keywords, author of the document, language (charset) 
 and viewport so the page can load appropriately on different screens. Screen can be resized and navigation bar will collapse and display hamburger menu (fa-fa bars).
 
 #The iframe tag for embedding youtube video and Google Maps into this website
